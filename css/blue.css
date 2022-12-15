@@ -1,0 +1,85 @@
+/* general structure to center text in the page */
+
+body main, article, div.moreinfo, footer {
+    padding: 10px 15%;
+}
+
+div.col {
+    padding: 0;
+}
+
+.logoimg {
+    width: 130px;
+}
+
+header {
+    box-shadow: 0 1px 10px rgba(17,34,83,255);
+}
+
+.redcarintro h2 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.redcarintro {
+    display: flex;
+    flex-direction: row;
+}
+
+body main {
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+body article.geninfo {
+    padding: 60px 15% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(17,34,83,255);
+    color: white;
+}
+
+body article button, body article button.buy a {
+    width: 300px;
+    text-decoration: none;
+    color: black;
+}
+
+body div.moreinfo {
+    padding-top: 3rem;
+}
+
+/* css for my div.detailscontainer */
+body div.moreinfo div.detailscontainer div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+body div.moreinfo div.detailscontainer div.specs img.c9specsmodel{
+    padding: 10px 0;
+    width: 200px;
+}
+
+body div.moreinfo div.detailscontainer div.row div.col div.card {
+    width: 20rem;
+    background-color: rgba(17,34,83,255);
+    color: white;
+    border-radius: auto;
+}
+
+body div.moreinfo div.detailscontainer div.row .card-container {
+    margin-bottom: 30px;
+}
+
+body div.moreinfo div.detailscontainer div.row div.col div.card-container .card-body a.btn-lg{
+    border: 2px white solid;
+    color: white;
+}
+
+body div.moreinfo div.detailscontainer div.row div.col div.card-container .card-body a.btn-lg:hover {
+    background-color: white;
+    color: rgba(17,34,83,255);
+}
